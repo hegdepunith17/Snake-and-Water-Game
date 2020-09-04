@@ -6,13 +6,13 @@ print("  snake  water gun \n ")
 list1=["s","w","g"]
 while  noofchances<10:
 
-    print("No f chances left ", 10 - noofchances)
+    print("No of chances left ", 10 - noofchances)
     a = input("s for snake \nw for water\ng for gun \n")
 
     b=random.choice(list1)
 
     if a=="s" and b=="w":
-        print(f"Your choice is  {a} and computer choice is {b}" )
+        print(f"Your choice is  {a} and computer's choice is {b}" )
         userpoint=userpoint+1
         noofchances=noofchances+1
         print(userpoint)
